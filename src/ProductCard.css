@@ -1,0 +1,8 @@
+.card img{
+    width: 18 rem;
+    max-height: 300px;
+    min-height: 300px;
+}
+.card:hover{
+    box-shadow: 2px 3px 15px black;
+}
