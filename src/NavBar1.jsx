@@ -16,8 +16,8 @@ function NavBar1() {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar color="light" light expand="sm"> {/* Añadido color y expand */}
-      <NavbarBrand href="/">Mi Tienda</NavbarBrand>
+    <Navbar color="dark" light expand="sm"> {/* Añadido color y expand */}
+      <NavbarBrand className='titulo' href="/">Mi Tienda</NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
         <Nav className="me-auto" navbar> {/* Cambiado me-auto por mr-auto */}

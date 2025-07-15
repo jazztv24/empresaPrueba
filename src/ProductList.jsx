@@ -38,7 +38,7 @@ const ProductList = () => {
 
   return (
     
-    <div className="d-flex flex-wrap">
+    <div className="d-flex flex-wrap CartasSeccion1">
       {products.map((product) => (
     <ProductCard key={product.id} product={product} />
   

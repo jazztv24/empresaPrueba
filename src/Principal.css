@@ -7,6 +7,11 @@
     font-family: 'Times New Roman', Times, serif;
     padding: 15px;
 }
+.principal{
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
 .navbar1{
     width: 100%;
 }
@@ -18,14 +23,71 @@
 }
 .aside{
     width: 25%;
-    background-color: aqua;
+    background-color: rgb(28, 94, 94);
+    color: aliceblue;
 }
 .section1{
     width: 75%;
-    background-color: yellow;
+    background-color: rgb(129, 182, 189);
+    justify-content: center !important;
+}
+.Cartas{
+    width: 100%;
 }
 .footer{
     width: 100%;
     height: 60px;
     background-color: rgb(6, 6, 75);
+}
+.card img{
+    width: 12rem;
+    max-height: 220px;
+    min-height: 220px;
+}
+.card{
+        width: 12rem !important;
+    }
+.card:hover{
+    box-shadow: 2px 3px 15px black;
+}
+.CartasSeccion1{
+        justify-content: space-around;
+    }
+
+
+
+
+
+/*DISEÑO RESPONSIVO*/
+/* Móviles (hasta 600px) - No necesitas min-width si usas Mobile First */
+
+/* Tabletas (600px - 992px) */
+@media (width < 576px) {
+    .medio{
+        flex-direction: column;
+    }
+    .aside{
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .card img{
+    width: 10rem;
+    max-height: 150px;
+    min-height: 150px;
+    }
+    .card{
+        width: 10rem !important;
+    }
+    .CartasSeccion1{
+        justify-content: space-around;
+    }
+}
+
+
+/* PCs grandes (1200px en adelante) */
+@media (min-width: 1200px) {
+
 }

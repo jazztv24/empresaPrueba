@@ -12,9 +12,14 @@ function Principal() {
         <div className="header">EMPRESA DE SERvivIOS TARVAR</div>
         <div className="navbar1"><NavBar1 /></div>
         <div className="medio">
-            <div className="aside">ESTO ES EL ASIDE</div>
+            <div className="aside">
+              ESTO ES EL ASIDE
+              <p>Aqui deberian haber varias opciones</p>
+              <p>opcion 1</p>
+              <p>opcion 2</p>
+              </div>
             <div className="section1">
-              <Routes>
+              <Routes className="Cartas">
                 <Route path="/" element={<ProductList></ProductList>}></Route>
                 <Route path="/comida" element={<ProductListComida></ProductListComida>}></Route>
                 <Route path="/ropa" element={<ProductListRopa></ProductListRopa>}></Route>
