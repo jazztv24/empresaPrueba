@@ -27,7 +27,10 @@ function Principal() {
             </div>
         </div>
         
-        <div className="footer">ESTO ES FOOTER</div>
+        <div className="footer">
+          <h2>Esto es un ejemplo de footer</h2>
+          <h4>Derechos Reservados xd</h4>
+        </div>
       
       
     </div>
