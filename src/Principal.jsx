@@ -9,7 +9,7 @@ console.log("TODAS las variables:", import.meta.env);
 function Principal() {
   return (
     <div className="principal">
-        <div className="header">EMPRESA DE SERvivIOS TARVAR</div>
+        <div className="header">EMPRESA DE SERVICIOS TARVAR</div>
         <div className="navbar1"><NavBar1 /></div>
         <div className="medio">
             <div className="aside">
