@@ -1,0 +1,18 @@
+.carda{
+    transition: 1s !important;
+    position:sticky;
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: azure !important;
+    align-self: center;
+}
+.card-body{
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+.card-img-top1{
+    width: 13rem;
+    height: 13rem;
+}
